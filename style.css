@@ -1,0 +1,88 @@
+body{
+	background-image:url(images/background.png);
+	background-position: fixed;
+	background-attachment: fixed; 
+}
+
+.nav{
+	background:#000;
+	text-align:center;
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow:3px 3px 7px #777;
+	padding:5px
+	}
+.nav a{
+	color:#fff;
+	font-family:geneva,arial,helvetica,san-serif;
+	font-size:18px;
+	font-weight:700;
+	margin:15px;
+	padding:5px;
+	text-decoration:inherit
+	}
+.nav a:hover{
+	color:#000;
+	background-color:#fff
+	}
+.header{
+	width:100%;height:250px
+	}
+.header img{
+	width:100%;
+	height:250px
+	}
+.top{
+	background-color:#000;
+	border:5px;padding:5px
+	}
+.content{
+	background-color:rgba(255,255,255,.4);
+	padding:50px;
+	border:2px solid #000;
+	margin:50px;
+	text-align:center;
+	width: 70%;
+	float: right;
+}
+
+.button, .facebook{
+	margin-right: auto; 
+	margin-left: -1.2%; 
+	height: 100px; 
+	width: 100px;
+	opacity: 0.3;
+	transition-property: margin-left;
+	-webkit-transition-property: margin-left;
+	-moz-transition: margin-left;
+    transition-duration: 1.1s;
+    -webkit-transition-duration: 1.1s;
+    -moz-transition-duration: 1.1s;   
+}
+
+.button:hover, .facebook:hover{
+	margin-left: 1.2%;
+	opacity: 0.9;
+}
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
